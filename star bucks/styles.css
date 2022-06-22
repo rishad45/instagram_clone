@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+i{
+    font-size: 22px;
+}
+.header{
+    height: 25%;
+    border: 1px solid black;
+}
+.header .logo img{
+    height: 55px;
+    width: 55px;
+}
+.header{
+    display: flex;
+}
+.header .left{
+    display: flex;
+    align-items: center;
+}
+.header .left a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: black;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 750;
+    letter-spacing: 3px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.join{
+    float: right;
+
+}
+.sign{
+    float: right;
+
+}
+.first{
+    margin-block-start: 1.8rem;
+}
+.first .text1{
+    background-color: #41b6e6;
+    float: left;
+    width:50%;
+    height: 393px;
+}
+.first .image1{
+    width: 50%;
+
+}
+
+

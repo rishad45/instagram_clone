@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    height: 105px;
+}
+.header .header_left{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.header .header_right{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.16;
+    font-weight: 600;
+    font-style: normal;
+    
+    
+}
+.header .header_left .logo{
+    margin-right: 40px;    
+}
+.header .header_left .logo img{
+    height: 60px;
+    width: 60px;
+}
+.header .header_left .menu{
+    margin-right: 27px;
+}
+.header .header_left .rewards{
+    margin-right: 27px;
+}
+.header_right .join{
+    margin-right: 35px;
+}
+.header_right .join button{
+    font-weight:bold;
+    padding: 5px 12px;
+    border-radius: 20px 20px;
+    background-color: black;
+    color: white;
+}
+.header_right .signin{
+    margin-right: 30px;
+}
+.header_right .signin button{
+    padding: 5px 12px;
+    border-radius: 20px 20px;
+    background-color: white;
+    font-weight: bold;
+}
+.header_right .store{
+    margin-right: 50px;
+    
+}
+.header_right .location{
+    margin-right: 12px;
+}
+.header_right .location img{
+    height: 20px;
+    width: 20px;
+}
+
+/* first box starts here ................................*/
+.firstBox{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #41b6e6;
+    display: flex;
+    height: 480px;
+    margin: 30px 30px ;
+    color: #1e3932
+}
+.firstText{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.firstText .head1{
+    margin-top: 120px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.firstImage{
+    width: 50%;
+    overflow: hidden;
+}
+.firstImage img{
+    height: 480px;
+}
+.firstText .head1 h1{
+    margin-bottom: 15px;
+}
+.firstText p{
+    line-height: 2em;
+    font-size: 18px;
+}
+.firstText .para1{
+    margin-bottom: 2em;
+}
+.firstText .btn1 button{
+    padding: 7px 16px;
+    border-width: 0.3px;
+    border-color: #1e3932;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #41b6e6;
+    color: #1e3932;
+    border-radius: 20px 20px;
+}
+/* second box ...................................*/
+.secondBox{
+    display: flex;
+    margin: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.secondBox .secondText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 226px;
+    background-color: #1e3932;
+}
+.secondBox .secondImage{
+    width: 50%;
+
+}
+.secondBox .secondImage img{
+    height: 226px;
+    width: 730px;
+} 
+.secondBox .secondText .head2{
+    margin-top: 40px;
+    
+}
+.secondBox .secondText .head2 h1{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 550;
+    font-stretch: expanded;
+}
+
+.secondBox .secondText button{
+    margin-top: 5em;
+    padding: 9px 15px;
+    border-radius: 20px 20px;
+    background-color: #1e3932;
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+}  
+/* 3rd box...............................*/
+.thirdBox{
+    display: flex;
+    margin: 30px 30px;
+    font-family: 'Anek Latin', sans-serif;
+    
+}
+.thirdBox .thirdText{
+    width: 50%;
+    background-color: #f06464;
+    height: 600px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.thirdBox .thirdImage{
+    width: 50%;
+}
+.thirdBox  .thirdImage img{
+    height: 600px;
+    width: 730px;
+}
+.thirdBox .thirdText .head3{
+    margin-top: 2em;
+    font-weight: 900;
+    font-size: 28px;
+    letter-spacing: 5px;
+
+}
+#h1_2{
+    margin-left: -20px;
+}
+.thirdText .para3{
+    margin-top: 23px;
+}
+.thirdText .para3 p{
+    font-size: x-large;
+    margin-bottom: 10px;
+
+}
+#p2{
+    margin-left: -7px;
+}
+#p4{
+    margin-left: -17px;
+}
+#p5{
+    margin-left: 7em;
+}
+.thirdText .btn3{
+    margin-top: 15px;
+    margin-left: -1.1em;
+}
+.thirdText .btn3 button{
+    padding: 7px 16px;
+    border: solid white;
+    border-radius: 20px 20px;
+    background-color: #f06464;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+/*       fourth box......................................   */
+.fourthBox{
+    display: flex;
+    margin: 30px 30px;
+    color: #1e3932;
+    font-family: 'Anek Latin', sans-serif;
+
+
+}
+.fourthBox .fourthImage{
+    width: 50%;
+    overflow: hidden;
+    
+}
+.fourthBox .fourthText{
+    width: 50%;
+    background-color: #9bf5b4;
+    height: 615px;
+}
+.fourthBox .fourthImage img{
+    width: 730px;
+    height: 615px;
+}
+.fourthBox .fourthText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.fourthBox .fourthText .head4 h1{
+    margin-top: 4em;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+.para4{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+.para4 #para4_1{
+    margin-left: 90px;
+}
+.para4 #para4_2{
+    margin-left: 108px;
+}
+.para4 #para4_3{
+    margin-left: 220px;
+}
+.fourthBox .fourthText .btn4{
+    margin-top: 37px;
+}
+.fourthBox .fourthText .btn4 button{
+    padding: 7px 16px;
+    border-radius: 20px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.16px;
+    margin: 32px 0px 0px ;
+    background-color:#9bf5b4;
+    border-width: 0.1px;
+    border-color: #1e3932;
+
+}
+/* fifth box starts here........................................*/
+.fifthBox{
+    display: flex;
+    margin: 30px 30px;
+    
+}
+.fifthBox .fifthText{
+    width: 50%;
+    background-color: #d4e9e2;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Anek Latin', sans-serif;
+
+}
+.fifthBox .fifthImage{
+    width: 50%;
+}
+.fifthBox .fifthImage img{
+    height: 410px;
+    width: 730px;
+}
+.fifthBox .fifthText .head5 h1{
+    margin-top: 90px;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 2.84px;
+    font-weight: 600;
+
+}
+.fifthBox .fifthText .para5{
+    margin-top: 20px;
+    margin-left: -64px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.fifthBox .fifthText .para5 #para5_3{
+    margin-left: 175px;
+}
+.fifthBox .fifthText .btn5{
+    margin-top: 30px;
+}
+.fifthBox .fifthText .btn5 button{
+    padding: 7px 16px;
+    font-size: 16px;
+    background-color: #d4e9e2;
+    letter-spacing: -0.16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 20px 20px;
+}
+
+/* footer at the end of header section starts here */
+.header_footer{
+    margin: 30px 30px;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 25.2px;
+    letter-spacing: -0.16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header_footer span{
+    margin-left: 190px;
+}
+.header_footer a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+}
+/* .header_footer a::after{
+    background-color: #f06464;
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+} */
+.header_footer2{
+    margin: 30px 30px;
+    margin-left: 540px;
+    margin-top: 90px;
+    font-size: 14px;
+    line-height: 25.2px;
+    letter-spacing: -0.16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    margin-top: 20px;
+}
+.about_footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+    margin: 30px 30px;
+    letter-spacing: -0.16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    line-height: 50px;
+}
+.about_footer a{
+    text-decoration: none;
+    color: #6c6b69;
+}
+.about_footer .head{
+    font-size: 20px;
+}
+/* footer starts here.........................................*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px;
+}
+.footer .socialIcons{
+    
+}
+.footer .socialIcons img{
+    height: 34px;
+    width: 34px;
+    margin-right: 26px;
+}
+#im1{
+    width: auto;
+}
+.footer_middle{
+    margin-top: 25px;
+}
+.copyright{
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.footer pre{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
