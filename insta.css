@@ -120,9 +120,6 @@ section{
     border-radius: 50%;
     object-fit: cover;
 }
-.posts .post_title .post_left .details{
-    margin-left: 7px;
-}
 .posts .post_title .post_left .details .name{
     padding-bottom: 2px;
     font-weight: bold;
