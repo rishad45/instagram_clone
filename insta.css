@@ -116,7 +116,7 @@ section{
     align-items: center;
 
 }
-.posts .post_title .post_left .post_icon{
+.posts .post_title .post_left .post_icon img{
     border-radius: 50%;
     object-fit: cover;
 }
